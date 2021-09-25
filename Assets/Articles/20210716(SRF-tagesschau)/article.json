@@ -1,20 +1,20 @@
 {
     "id": 3,
     "title": "Viel Wasser fließt durch die Schweiz, zu viel im Moment",
-    "created_at": "15.07.2021",
+    "created_at": "16.07.2021",
     "updated_at": "",
-    "thumbnail": "4-20210715-thumbnail.png",
+    "thumbnail": "12-20210716-thumbnail.png",
     "body" :
     [
         {
            "type" : "video",
            "consume_time": 18,
-           "value" : "1"
+           "value" : "9"
         },
         {
             "type" : "text",
             "consume_time": 2820,
-            "value" : "3"
+            "value" : "12"
         }
     ],
     "tags":
@@ -23,5 +23,5 @@
         "Weather"
     ],
     "lead": [{"type": "Paragraph","value":"Viel Wasser fließt durch die Schweiz, zu viel im Moment Tierbilder vom sogenannten Wasserschloss im Kanton Aargau WHO are Reuss und Limmat zusammenfließen. Guten Abend, meine Damen und Herren, und willkommen zu dieser Sondersendung, auch wenn gerade im Moment zum Glück vielerorts wieder die Sonne scheint das Wetter oder eher das Unwetter ist das Thema dieses Sommers. Mit verheerenden Folgen ziehen Regen, Hagel und Gewitter übers Land, auch über Nachbarländer."}],
-    "rating": 6.78
+    "rating": 8
 }
