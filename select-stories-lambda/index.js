@@ -10,9 +10,8 @@ const getStoriesByTime = async (minTime,optTime,maxTime) => {
     `
         SELECT *
         FROM public.articles
-        WHERE articles.consume_time = $1::integer;
-    `,
-    [optTime]
+        WHERE articles.consume_time <= ${maxTime};
+    `
   );
 
   client.release();
@@ -20,14 +19,21 @@ const getStoriesByTime = async (minTime,optTime,maxTime) => {
   if (!response.rows[0]) {
     return null;
   }
+  var foundTimeStories = new Array(response.rowCount).fill(null);
+  
+  for (let i = 0; i < response.rowCount; i++) {
+    foundTimeStories[i]={'id':response.rows[i].id, 'title':response.rows[i].title, 'lead':response.rows[i].lead, 'thumbnail':response.rows[i].thumbnail};
+  } 
 
   console.log("found story:", response.rows[0].id);
 
-  const foundStory = {
-    id: response.rows[0].id
-  };
+  return foundTimeStories;
+};
 
-  return foundStory;
+const getStoriesByInterest = async (foundTimeStories, interests) => {
+  
+  
+  return ;
 };
 
 
@@ -46,13 +52,21 @@ exports.handler = async (event) => {
         return {
           statusCode: 400,
           body: JSON.stringify({
-            message: "not found",
+            message: "stories according to time preference not found",
           }),
         };
     }
     
+    const foundInterestStories = await getStoriesByInterest(foundTimeStories, interests);
+
+    
     var response = {
         statusCode: 200,
+        headers: {
+            "Access-Control-Allow-Headers" : "Content-Type",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "POST"
+        },
         body: JSON.stringify({
           message: "success",
           storyIds: foundTimeStories
