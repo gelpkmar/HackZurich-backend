@@ -1,27 +1,27 @@
 {
-    "id": 1,
-    "title": "Das Sturmtief in der Nacht auf heute war von einer außergewöhnlichen Heftigkeit",
-    "created_at": "13.07.2021",
+    "id": 2,
+    "title": "Spezial Sendung anlässlich der Unwetter in der Schweiz",
+    "created_at": "15.07.2021",
     "updated_at": "",
-    "thumbnail": "20210713-thumbnail.jpg",
+    "thumbnail": "4-20210715-thumbnail.png",
     "body" :
     [
         {
-           "type" : "audio",
-           "consume_time": 157,
-           "value" : "20210713_Unwetter_Schweiz.wav"
+           "type" : "video",
+           "consume_time": 18,
+           "value" : "1"
         },
         {
             "type" : "text",
-            "consume_time": 157,
-            "value" : [{"type": "Paragraph","value":"Das Sturmtief in der Nacht auf heute war von einer außergewöhnlichen Heftigkeit sehr viel Regen über mehrere Stunden, dazu starke Böen mit den entsprechenden Folgen. In Zürich sind die Aufräumarbeiten im Gange. Die Lage bleibt auch in anderen Teilen der Schweiz angespannt. Die Pegelstände von Flüssen und Seen sind nämlich mit den vielen Niederschlägen weiter gestiegen. Elmar Platzer. Im Laufe des heutigen Tages hat sich die Hochwasser Situation weiter zugespitzt, und zwar schneller als erwartet. Zum Beispiel an einer der wichtigsten Verkehrs Routen der Schweiz. So war der Gotthardtunnel heute stundenlang gesperrt. In der Gegend wurden auch einzelne Häuser vorsorglich evakuiert, weil sich die Lage mittlerweile etwas entspannt hat. Ist die Autobahn A 2 auf Urner Seite wieder für den Verkehr freigegeben? Im Kanton Bern ist der Pegel der Aare stark angestiegen. Im Berner Matte Quartier sind bereits Grundwasser Pumpen im Einsatz, das bislang aber noch nichts Schlimmeres passiert sei, verdanke man den aufgebauten Hochwasser sperren, sagt alá Salih, Kommandant der Feuerwehr Bern. Die die Schutzmaßnahmen haben das Ziel erreicht. Sie haben bis jetzt wenige Einsätze auch Stück nur auf das Hochwasser zurückzuführen sind. Und aufgrund dem Einbau des Hochmoor zu Schutzmaßnahmen sind sie hier richtig. Bei verschiedenen Seen sind die Pegel stark angestiegen, unter anderem beim Zürichsee. Beim Vierwaldstättersee und beim Genfer See. Und die Walliser Behörden haben eine Unwetterwarnung für die Rhone und deren Seiten Thäler ausgegeben. Dort werden starke Unwetter befürchtet, die zu Erdrutschen führen könnten. David Folgen Hydro Logie beim Bundesamt für Umwelt blickt sorgenvoll auf die nächsten Tage. Uns macht natürlich die Lage in den nächsten Tagen schon ein bisschen Sorgen, wenn wir sehen, mit was für Niederschlägen wir von Mittwoch bis Freitag nochmals rechnen müssen. Da sind Mengen von 60 bis Tylers 100 Millimeter nochmals gesaugt und das fleißig im Mittelland und nochmals Benotungen. Und das könnte dann das Fass zum Überlaufen bringen, sodass wir dann vermutlich noch höhere Stufen ausrufen müssen, auch wenn es bis jetzt noch zu keinen dramatischen Hochwasser Folgen gekommen ist. Und obwohl der Regen heute Abend vielerorts eine kleine Pause einlegt zum Aufatmen, ist es noch zu früh, denn die Böden sind gesättigt, die Grundwasser Stände sind hoch und die Seen randvoll. Das bleibt eine heikle Konstellation. Elmar Plauze hat berichtet."}]
-         }
+            "consume_time": 18,
+            "value" : "3"
+        }
     ],
     "tags":
     [
         "Europe",
         "Weather"
     ],
-    "lead": [{"type": "Paragraph","value":"Das Sturmtief in der Nacht auf heute war von einer außergewöhnlichen Heftigkeit sehr viel Regen über mehrere Stunden, dazu starke Böen mit den entsprechenden Folgen. In Zürich sind die Aufräumarbeiten im Gange."}],
+    "lead": [{"type": "Paragraph","value":"Guten Abend, meine Damen und Herren, willkommen zu einer Israelit Spezial Sendung anlässlich der Unwetter in der Schweiz. Wir schauen aber auch nach Deutschland, wo die Situation ist sehr dramatisch ist die Sendung Tonstudios. Die folgt hier gleich im Anschluss an diese Sendung, also etwa um 20 Uhr. 20 Thomas Bucheli von SRF Meteo. Vielen Dank, dass Sie heute Abend mit uns die Situation einschätzen. Schauen wir uns zuerst die Bilder des Tages an Für verschiedene Gewässer gilt die Gefahrenstufe 5 sowie den Bila und den Thunersee, aber auch für den Vierwaldstättersee. Der hatte schon heute Morgen die Gefahrenstufe 5 erreicht und einen Pegelstand, der über dem Wert für die höchste Alarmstufe liegt. Dort werden Hochwasser Sperren aufgebaut, um die Stadt zu schützen. Luzern heute Nachmittag nur noch wenige Zentimeter und das Wasser tritt über die Ufer."}],
     "rating": 6.78
 }
