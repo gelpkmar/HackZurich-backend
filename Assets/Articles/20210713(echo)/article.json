@@ -1,0 +1,15 @@
+{
+    id: 1,
+    title: xyz,
+    created_at: 25.09.2021,
+    body:[
+        {
+            type: img,
+            value:
+        },
+        {
+            type: text,
+            value:
+        }
+    ]
+}
